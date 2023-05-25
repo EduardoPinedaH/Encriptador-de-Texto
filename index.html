@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="assets/img/Logo.png">
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="resultado">
+                <img id="muñeco" src="assets/img/Muñeco.png">
+                <div class="desencript_text">
+                    
+                    <!-- <h1 class="textoResultado" id="textoResultado"></h1> -->
+                    <h1 id="no_encontrado" class="no_encontrado">Ningún mensaje fue encontrado</h1>
+                    <p id="ingresa_texto" class="texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <button id="copy" class="btn_copy" type="button">Copiar</button>
+                    <textarea name="texto_resultado" class="textoResultado" id="textoResultado" disabled>texto aquí</textarea>
+                </div>
+            </div>
+            <div class="forms">
+                <div class="rectangle"></div>
+                <form class="encriptador_form">
+                    <div class="texto_en_area">
+                        <textarea name="texto" id="texto"  placeholder="Ingrese el texto aquí" ></textarea>
+                        <div class="texto_info">
+                            <div class="info"> 
+                                <img id="frame" src="assets/img/Frame 1.png">
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button id="encri" class="btn_encriptar" type="button">Encriptar</button>
+                            <button id="desencri" class="btn_desencriptar" type="button">Desencriptar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footer_container">
+            <h1 class="footer_text">@ Creado por Eduardo Pineda</h1>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</html>
