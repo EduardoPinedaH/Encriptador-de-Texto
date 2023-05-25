@@ -29,5 +29,5 @@ El resultado debe ser mostrado en la pantalla.
 ![image](https://github.com/EduardoPinedaH/Encriptador-de-Texto/assets/123011718/8a490896-7720-4d5f-8010-ffd9457b69ae)
 
 ### Deployed App
-<a href="[https://eduardopinedah.github.io//](https://eduardopinedah.github.io/Encriptador-de-Texto/)"><img src="https://img.shields.io/badge/- See Live Site-success?style=for-the-badge"  alt="Live Site" /></a>
+<a href="https://eduardopinedah.github.io/Encriptador-de-Texto/"><img src="https://img.shields.io/badge/- See Live Site-success?style=for-the-badge"  alt="Live Site" /></a>
 
